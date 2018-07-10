@@ -1,8 +1,8 @@
 {
-  "name": "yeldo",
+  "name": "yeldo assist",
   "version": "0.0.0",
   "author": "",
-  "description": "a simple todolist application with electron vue",
+  "description": "a simple banner calculator application with electron vue",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {

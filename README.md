@@ -1,6 +1,6 @@
-# yeldo
+# yeldo assist
 
-> a simple todolist application with electron vue
+> a simple banner calculator app with electron vue
 
 #### Build Setup
 
