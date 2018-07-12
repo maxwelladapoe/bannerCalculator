@@ -92,7 +92,13 @@
           if (err) {
             console.log(err)
           } else {
-            console.log(numReplaced)
+            if (numReplaced === 1) {
+              this.$notify({
+                title: 'Success',
+                message: 'You have successfully updated your credentials',
+                type: 'success'
+              })
+            }
           }
         })
       },
@@ -104,11 +110,6 @@
           } else {
             let second = {editing: false}
             this.userCredentials = {...docs.defaultSystemVariables, ...second}
-            this.$notify({
-              title: 'Success',
-              message: 'You have successfully updated your credentials',
-              type: 'success'
-            })
             // console.log(this.userCredentials)
           }
         })
