@@ -16,6 +16,11 @@ export default new Router({
       component: require('@/components/InvoicePage').default
     },
     {
+      path: '/settings',
+      name: 'settings-page',
+      component: require('@/components/SettingsPage').default
+    },
+    {
       path: '*',
       redirect: '/'
     }

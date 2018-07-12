@@ -72,7 +72,7 @@
                 <p class="label">Price</p>
                 <p class="calculatedPrice text-success">{{totalCost }}</p>
                 <div class="brief">
-                    <p class="small-info"><i class="el-icon-info"></i> Width: {{banner.width + " " + banner.widthMeasurement}} X Height: {{banner.width + " " + banner.heightMeasurement}}</p>
+                    <p class="small-info"><i class="el-icon-info"></i> Width: {{banner.width + " " + banner.widthMeasurement}} X Height: {{banner.height + " " + banner.heightMeasurement}}</p>
                 </div>
 
                 <p class="add-btn" @click="addItemToInvoice"><i class="el-icon-circle-plus text-success"></i> Add to Invoice</p>
@@ -170,13 +170,13 @@
         width: 100%;
         height: 100%;
         .left {
-            padding-top: 2em;
-            padding-left: 2em;
+            padding-top: 5em;
+            padding-left: 5em;
             height: 100%;
         }
         .right {
-            padding-top: 2em;
-            padding-left: 2em;
+            padding-top: 5em;
+            padding-left: 5em;
             height: 100% !important;
 
         }

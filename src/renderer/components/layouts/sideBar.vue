@@ -9,11 +9,11 @@
                 <i class="el-icon-document"></i>
                 <span slot="title">Invoices</span>
             </el-menu-item>
-            <el-menu-item index="3">
-                <i class="el-icon-bell"></i>
-                <span slot="title">Task Manager</span>
-            </el-menu-item>
-            <el-menu-item index="4">
+            <!--<el-menu-item index="3">-->
+                <!--<i class="el-icon-bell"></i>-->
+                <!--<span slot="title">Task Manager</span>-->
+            <!--</el-menu-item>-->
+            <el-menu-item index="4" :route="{name:'settings-page'}">
                 <i class="el-icon-setting"></i>
                 <span slot="title">Settings</span>
             </el-menu-item>
