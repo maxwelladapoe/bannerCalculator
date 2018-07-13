@@ -22,7 +22,10 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     height: 720,
     useContentSize: true,
-    width: 1080
+    width: 1080,
+    minWidth: 1080,
+    minHeight: 720,
+    title: 'yeldo Banner Cal'
   })
 
   mainWindow.loadURL(winURL)
