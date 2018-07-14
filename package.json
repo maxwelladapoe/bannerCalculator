@@ -1,6 +1,6 @@
 {
   "name": "yeldo-assist",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "",
   "description": "a simple banner calculator application with electron vue",
   "license": null,
@@ -22,8 +22,13 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "yeldo",
+    "productName": "yeldo-assist",
     "appId": "org.simulatedgreg.electron-vue",
+    "publish":[{
+      "provider": "github",
+      "repo":"bannerCalculator",
+      "owner":"maxwelladapoe"
+    }],
     "directories": {
       "output": "build"
     },
