@@ -35,7 +35,7 @@ function createWindow () {
     width: 1080,
     minWidth: 1080,
     minHeight: 720,
-    title: 'yeldo-assist'
+    title: 'Banner Price Calculator'
   })
 
   mainWindow.loadURL(winURL)
